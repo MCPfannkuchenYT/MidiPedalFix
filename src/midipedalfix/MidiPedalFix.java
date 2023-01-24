@@ -34,7 +34,7 @@ public class MidiPedalFix {
 			if (c[0] == -80 && c[1] == 64)
 				if (c[2] == 127) {
 					// pedal on
-					pedalAt = System.currentTimeMillis() + 235;
+					pedalAt = System.currentTimeMillis() + 170;
 					return;
 				} else
 					pedalAt = Long.MAX_VALUE;
